@@ -5,7 +5,6 @@ import { useEffect, useState } from "react"
 import { collection, doc, getDoc, setDoc } from "firebase/firestore"
 import { db } from "@/firebase"
 import { useRouter } from "next/navigation"
-import HomeIcon from '@mui/icons-material/Home';
 import { Container, Grid, Card, CardActionArea, CardContent, Typography, Button } from "@mui/material"
 
 export default function Flashcards() {
