@@ -41,7 +41,7 @@ export async function POST(req) {
 
         // Request completion from OpenAI API
         const completion = await openai.chat.completions.create({
-            model: 'gpt-4', // Updated model name for GPT-4
+            model: 'gpt-4o', // Updated model name for GPT-4
             messages: [
                 { role: 'system', content: systemPrompt },
                 { role: 'user', content: data },
